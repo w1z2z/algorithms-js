@@ -10,6 +10,7 @@ function binarySearch(arr, item) {
         count++;
         let mid = Math.floor((low + high) / 2);
         guess = arr[mid];
+        console.log(guess);
         if (guess == item) {
             return mid;
         } else if (guess > item) {
@@ -21,7 +22,7 @@ function binarySearch(arr, item) {
     return 'Данного элемента нет в массиве!'
 }
 
-const num = 8;
+const num = 4;
 console.log('Искомый элемент: ', num);
 console.log('Индекс искомого элемента: ', binarySearch(arr, num));
 console.log('Количество итераций: ', count);

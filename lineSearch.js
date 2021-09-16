@@ -15,7 +15,7 @@ function lineSearch(arr, num) {
     return null
 }
 
-const num = 5;
+const num = 6;
 console.log('Искомый элемент: ', num);
 console.log('Индекс искомого элемента: ', lineSearch(arr, num));
 console.log('Количество итераций: ', count);
