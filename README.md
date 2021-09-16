@@ -1,2 +1,2 @@
-"# algorithms-js" 
-"# algorithms-js" 
+"# Алгоритмы на языке JavaScript" 
+ 
